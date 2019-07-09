@@ -1,0 +1,430 @@
+/* NAVBAR */
+
+/*  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #80d2c7;
+    text-align: center;
+    background-size: cover;
+}
+
+header img {
+    padding-top: 40%;
+    padding-bottom: 10%;
+    max-width: 500px;
+}
+
+header h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 200;
+}
+
+header h2 {
+    color: rgba(255,255,255,0.7);
+    font-size: 40px;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.nav-small {
+    display: none;
+}
+
+#no-display {
+    display: none;
+}
+
+#display {
+    display: block;
+}
+
+#display-ocean {
+    display: -webkit-box;
+}
+
+#no-display-ocean {
+    display: none;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#hi {
+    padding-top: 10%;
+}
+
+.bg-light2 {
+    background-color: rgba(255,255,255,0.7);
+}
+
+#who {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#who-p {
+    font-size: 40px;
+    color: #80d2c7;
+}
+
+#who-p-2 {
+    text-align: center;
+    color: rgba(0,0,0,.7);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#who-p-3 {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#who img {
+    max-width: 50px;
+}
+
+#projects {
+    margin-top: 5%;
+}
+
+#ceta {
+    margin-top: 2%;
+}
+
+#ceta img {
+    max-width: 420px;
+}
+
+#ceta a {
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    background-color: #80d2c7;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 10px;
+    width: max-content;
+}
+
+#ceta a:hover {
+    cursor: pointer;
+}
+
+#ciudad {
+    margin-top: 5%;
+}
+
+#ciudad img {
+    max-width: 420px;
+}
+
+#ciudad h3, #ciudad p {
+    text-align: center;
+}
+
+#ciudad-2 {
+    margin-top: 2%;
+}
+
+#ciudad-2 img {
+    max-width: 350px;
+}
+
+#landing {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#landing img {
+    max-width: 250px;
+    margin-top: 5%;
+}
+
+#landing-2 {
+    margin-left: 5%;
+}
+
+#ocean {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#ocean-2 {
+    text-align: right;
+}
+
+#ocean-2 img {
+    max-height: 350px;
+}
+
+#ocean-3 img {
+    max-height: 350px;
+}
+
+#code {
+    margin-top: 5%;
+    background-color: rgb(0,0,0,.85);
+    text-align: center;
+}
+
+#code h4 {
+    padding-top: 3%;
+    color: #5DBCD2;
+}
+
+#purple {
+    color: #FF73DF;
+}
+
+#green {
+    color: #3FC56B;
+}
+
+#red {
+    color: #E44644;
+}
+
+#code img {
+    max-width: 50px;
+}
+
+#code a:hover {
+    cursor: pointer;
+}
+
+#git {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#navbarCollapse {
+    margin-left: 20%;
+}
+
+@media (min-width: 768px){
+
+    .col-md-8 {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+
+    iframe {
+        width: 320px;
+        height: 215px;
+    }
+
+    #ceta img {
+        max-width: 320px;
+    }
+
+    #ciudad img {
+        max-width: 320px;
+    }
+
+    #landing img {
+        max-width: 150px;
+    }
+
+    #ocean-3 img, #ocean-2 img {
+        max-height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 1120px){
+
+    header img {
+        max-width: 400px;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    #display {
+        display: none;
+    }
+
+    #display-ocean {
+        display: none;
+    }
+
+    #no-display {
+        display: inline-block;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .col-md-10 {
+        max-width: 100%;
+    }
+
+    #ciudad img {
+        max-width: 300px;
+    }
+
+    #landing-2 {
+        margin-left: 0;
+    }
+
+    #no-display-ocean {
+        display: -webkit-inline-box;
+        margin-right: 0;
+        margin-left: 0;
+        width: -webkit-fill-available;
+        text-align: center;
+    }
+
+    #ocean-2 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 945px) {
+
+    #navbarCollapse {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    header img {
+        max-width: 300px;
+    }
+
+    header h1 {
+        font-size: 60px;
+    }
+
+    header h2 {
+        font-size: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 778px) {
+
+    #navbarCollapse {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .nav-small {
+        display: flex;
+        background-color: rgba(255,255,255,0.7);
+        z-index: 2000;
+    }
+
+    .navbar-nav {
+        flex-direction: unset;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        padding-right: 10px;
+        padding-left: 10px;
+        color: rgba(0,0,0,0.6)
+    }
+
+    .nav-small-ml {
+        margin-left: 30%;
+    }
+
+    header img {
+        padding-top: 15%;
+        padding-bottom: 0;
+    }
+
+    #hi {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #projects {
+        text-align: center;
+    }
+
+    #projects p {
+        text-align: justify;
+    }
+
+    #projects h3 {
+        margin-top: 3%;
+    }
+
+    #ceta, #ciudad, #landing, #ocean {
+        margin-top: 10%;
+    }
+
+    #ceta .row {
+        display: initial;
+    }
+
+    #ciudad p {
+        text-align: center;
+    }
+
+    #landing img, #ocean-2 img {
+        max-width: 300px;
+    }
+
+    #ocean-2 img {
+        max-height: 650px;
+    }
+
+    #ocean-3 {
+        display: none;
+    }
+
+    #ocean p {
+        text-align: center;
+    }
+
+    #git img {
+        margin-bottom: 5%;
+    }
+
+}
+
+
+@media screen and (max-width: 568px) {
+
+    #projects p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}
+
+
+@media screen and (max-width: 435px) {
+
+    .nav-small-ml {
+        margin-left: 20%;
+    }
+
+}
